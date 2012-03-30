@@ -93,7 +93,7 @@ highlight Error      cterm=bold            ctermbg=9                         gui
 highlight Todo       cterm=bold ctermfg=4  ctermbg=3           guifg=#0000bb guibg=#bbbb00
 highlight Directory  cterm=bold ctermfg=2                      guifg=#00bb00
 highlight StatusLine cterm=bold ctermfg=11 ctermbg=12 gui=none guifg=#eebb22 guibg=#e0ba83
-highlight Normal     cterm=bold ctermfg=11 ctermbg=12 gui=none guifg=#1c0a08 guibg=#ffead3
+highlight Normal     cterm=bold                       gui=none guifg=#1c0a08 guibg=#ffead3
 highlight Search     cterm=bold            ctermbg=3                         guibg=#bbbb00
 highlight MatchParen cterm=bold ctermfg=11 ctermbg=3  gui=bold guifg=#ff5a62 guibg=#e0ba83
 
