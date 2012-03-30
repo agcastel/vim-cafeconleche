@@ -85,7 +85,7 @@ highlight Function   cterm=bold,underline ctermfg=6 gui=bold,underline guifg=#1d
 highlight Constant   cterm=none ctermfg=14            gui=none guifg=#1da9ff
 highlight Identifier cterm=none ctermfg=6                      guifg=#2880bb
 highlight Statement  cterm=bold ctermfg=3             gui=bold guifg=#ffff77
-highlight PreProc    cterm=none ctermfg=10                     guifg=#e0ba82
+highlight PreProc    ctermfg=10                     guifg=#e0ba82 cterm=none
 highlight Type       cterm=none ctermfg=2                      guifg=#77bb00
 highlight Special    cterm=none ctermfg=12                     guifg=#f0ca92
 highlight SpecialKey cterm=bold ctermfg=4             gui=bold guifg=#0000bb
