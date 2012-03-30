@@ -80,21 +80,21 @@ highlight Keyword         ctermfg=2
 highlight Typedef         cterm=bold,underline ctermfg=6
 highlight ExtraWhitespace ctermbg=1
 
-highlight Comment    cterm=none ctermfg=8                      guifg=#555555
+highlight Comment    cterm=bold ctermfg=8                      guifg=#555555
 highlight Function   cterm=bold,underline ctermfg=6 gui=bold,underline guifg=#1da9ff
-highlight Constant   cterm=none ctermfg=14            gui=none guifg=#1da9ff
-highlight Identifier cterm=none ctermfg=6                      guifg=#2880bb
+highlight Constant   cterm=bold ctermfg=14            gui=none guifg=#1da9ff
+highlight Identifier cterm=bold ctermfg=6                      guifg=#2880bb
 highlight Statement  cterm=bold ctermfg=3             gui=bold guifg=#eebb22
-highlight PreProc    cterm=none ctermfg=10                     guifg=#1c0a08
-highlight Type       cterm=none ctermfg=2                      guifg=#77bb00
-highlight Special    cterm=none ctermfg=12                     guifg=#b0ca92
+highlight PreProc    cterm=bold ctermfg=10                     guifg=#1c0a08
+highlight Type       cterm=bold ctermfg=2                      guifg=#77bb00
+highlight Special    cterm=bold ctermfg=12                     guifg=#f0ca92
 highlight SpecialKey cterm=bold ctermfg=4             gui=bold guifg=#0000bb
-highlight Error      cterm=none            ctermbg=9                         guibg=#ff5555
-highlight Todo       cterm=none ctermfg=4  ctermbg=3           guifg=#0000bb guibg=#bbbb00
-highlight Directory  cterm=none ctermfg=2                      guifg=#00bb00
-highlight StatusLine cterm=none ctermfg=11 ctermbg=12 gui=none guifg=#eebb22 guibg=#e0ba83
-highlight Normal     cterm=none ctermfg=11 ctermbg=12 gui=none guifg=#1c0a08 guibg=#ffead3
-highlight Search     cterm=none            ctermbg=3                         guibg=#bbbb00
-highlight MatchParen cterm=none ctermfg=11 ctermbg=3  gui=bold guifg=#ff5a62 guibg=#e0ba83
+highlight Error      cterm=bold            ctermbg=9                         guibg=#ff5555
+highlight Todo       cterm=bold ctermfg=4  ctermbg=3           guifg=#0000bb guibg=#bbbb00
+highlight Directory  cterm=bold ctermfg=2                      guifg=#00bb00
+highlight StatusLine cterm=bold ctermfg=11 ctermbg=12 gui=none guifg=#eebb22 guibg=#e0ba83
+highlight Normal     cterm=bold ctermfg=11 ctermbg=12 gui=none guifg=#1c0a08 guibg=#ffead3
+highlight Search     cterm=bold            ctermbg=3                         guibg=#bbbb00
+highlight MatchParen cterm=bold ctermfg=11 ctermbg=3  gui=bold guifg=#ff5a62 guibg=#e0ba83
 
 
