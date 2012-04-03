@@ -39,11 +39,11 @@ let g:colors_name = "espresso"
 
 
 highlight NonText         term=bold cterm=bold ctermfg=4
-highlight ErrorMsg        term=standout cterm=bold ctermfg=7 ctermbg=1
+highlight ErrorMsg        term=standout cterm=none ctermfg=0 ctermbg=1
 highlight IncSearch       term=reverse cterm=reverse
 highlight Search          term=reverse ctermfg=0 ctermbg=3
 highlight MoreMsg         term=bold cterm=bold ctermfg=2
-highlight ModeMsg         term=bold cterm=bold
+highlight ModeMsg         term=bold cterm=bold ctermfg=0
 highlight LineNr          term=underline cterm=bold ctermfg=3
 highlight Question        term=standout cterm=bold ctermfg=2
 highlight StatusLineNC    term=reverse cterm=reverse
@@ -74,27 +74,27 @@ highlight CursorLine      term=underline cterm=underline
 highlight Underlined      term=underline cterm=bold,underline ctermfg=4
 highlight Ignore          ctermfg=0
 highlight Todo            term=standout ctermfg=4 ctermbg=3
-highlight Conditional     ctermfg=1
+highlight Conditional     cterm=bold ctermfg=1
 highlight Repeat          ctermfg=1
 highlight Keyword         ctermfg=2
 highlight Typedef         cterm=bold,underline ctermfg=6
 highlight ExtraWhitespace ctermbg=1
 
-highlight Comment    cterm=bold ctermfg=8                      guifg=#555555
-highlight Function   cterm=bold,underline ctermfg=6 gui=bold,underline guifg=#1da9ff
-highlight Constant   cterm=bold ctermfg=14            gui=none guifg=#1da9ff
+highlight Comment               ctermfg=7                      guifg=#555555
+highlight Function   cterm=bold,underline  ctermfg=6  gui=bold,underline guifg=#1da9ff
+highlight Constant   cterm=bold ctermfg=3             gui=none guifg=#1da9ff
 highlight Identifier cterm=bold ctermfg=6                      guifg=#2880bb
 highlight Statement  cterm=bold ctermfg=3             gui=bold guifg=#ffff77
 highlight PreProc    cterm=bold ctermfg=10                     guifg=#e0ba82
 highlight Type       cterm=bold ctermfg=2                      guifg=#77bb00
-highlight Special    cterm=bold ctermfg=12                     guifg=#f0ca92
+highlight Special    cterm=none ctermfg=6                     guifg=#f0ca92
 highlight SpecialKey cterm=bold ctermfg=4             gui=bold guifg=#0000bb
-highlight Error      cterm=bold            ctermbg=9                         guibg=#ff5555
+highlight Error      cterm=bold ctermfg=1  ctermbg=9                         guibg=#ff5555
 highlight Todo       cterm=bold ctermfg=4  ctermbg=3           guifg=#0000bb guibg=#bbbb00
 highlight Directory  cterm=bold ctermfg=2                      guifg=#00bb00
 highlight StatusLine cterm=bold ctermfg=11 ctermbg=12 gui=none guifg=#ffff55 guibg=#1c0a08
 highlight Normal     cterm=bold                       gui=none guifg=#e0ba82 guibg=#1c0a08
-highlight Search     cterm=bold            ctermbg=3                         guibg=#bbbb00
+highlight Search     cterm=reverse         ctermbg=3                         guibg=#bbbb00
 highlight MatchParen cterm=bold ctermfg=11 ctermbg=3  gui=bold guifg=#ff5a62 guibg=#1c0a08
 
 
